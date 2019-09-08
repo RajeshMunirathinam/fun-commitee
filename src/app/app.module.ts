@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { IntroComponent } from './components/intro/intro.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -11,6 +12,7 @@ import { IntroComponent } from './components/intro/intro.component';
     IntroComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     BrowserAnimationsModule
   ],
