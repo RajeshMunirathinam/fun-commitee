@@ -8,7 +8,7 @@
   height: 100vh;
   width: 100%;
 }
-// trophy 
+// trophy
 
 @keyframes play180 {
   0% {
@@ -23,7 +23,7 @@
   animation-timing-function: steps(180);
   width: 510px;
   height: 510px;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   cursor: pointer;
   position: absolute;
 }
@@ -47,16 +47,16 @@
   height: 100vh;
   width: 49.8%;
   right: 0;
-  background-color: blue;
   position: absolute;
   box-shadow: 0 0 10px #aaaaaa;
+  background-image: linear-gradient(to left, #3800ff, #0060ff, #008aff, #00aaff, #39c5f6);
 }
 
 .screen-left {
   height: 100vh;
   width: 49.8%;
   left: 0;
-  background-color: blue;
   position: absolute;
   box-shadow: 0 0 10px #aaaaaa;
+  background-image: linear-gradient(to right, #3800ff, #0060ff, #008aff, #00aaff, #39c5f6);
 }

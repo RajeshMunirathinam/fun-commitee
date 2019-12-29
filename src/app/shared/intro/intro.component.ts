@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import anime from 'animejs/lib/anime.es.js';
 
 @Component({
@@ -7,8 +7,10 @@ import anime from 'animejs/lib/anime.es.js';
   styleUrls: ['./intro.component.scss']
 })
 export class IntroComponent implements OnInit {
+
   showTrophy: boolean = false;
   show: boolean = true;
+
   constructor() { }
 
   ngOnInit() {
